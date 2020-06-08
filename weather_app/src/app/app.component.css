@@ -1,0 +1,323 @@
+.container, .tab {
+    height: auto;
+    max-width: 700px;
+    border: solid 1px black;
+    background-color: #6593AD;
+    color: white;
+    overflow: hidden;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    height: auto;
+    max-width: 600px;
+    background-color: #9BD1F3;
+    text-align:left;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.card-column {
+    float: left;
+    width: 15%;
+    margin-left: 5px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card-column img {
+    width: 30px;
+    height: 30px;
+}
+
+.details {
+    margin-left: -5px;
+}
+
+::ng-deep .mat-form-field-underline {
+    display: none;
+}
+
+::ng-deep .mat-form-field-wrapper {
+    padding-bottom: 0;
+}
+
+.error-street {
+    margin-top: -15px;
+    margin-bottom: 15px;
+    margin-left: 120px;
+    text-align: left;
+    color: #DF1C32;
+}
+
+.error-city {
+    margin-top: -15px;
+    margin-bottom: 15px;
+    margin-left: 120px;
+    text-align: left;
+    color: #DF1C32;
+}
+
+.city {
+    margin-left: -13px;
+    margin-right: 13px;
+}
+
+.city-placeholder {
+    width: 100%;
+    margin-top: -30px;
+}
+
+.state {
+    margin-top: -25px;
+    margin-left: -14px;
+    margin-right: 13px;
+}
+
+.state_placeholder {
+    padding-top: 18px;
+}
+
+.state-dropdown {
+    margin-top: -25px; 
+    height: 34px !important; 
+    width: 250px; 
+    font-family: sans-serif; 
+    font-size: 14px;
+}
+
+.results-btn {
+    margin-right: 20px;
+}
+
+.card .current-city {
+    margin-left: 20px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.card .temperature {
+    font-size: 30px; 
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+
+.card .summary {
+    font-size: 20px; 
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+
+.card .timezone {
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.card .seal {
+    width: 150px; 
+    height: 150px; 
+    margin-left: 350px; 
+    margin-top: -400px;
+}
+
+.invisible {
+    display: none;
+}
+
+.current_location {
+    margin-left: -480px;
+}
+
+.btn {
+    border-radius: 3px;
+}
+
+.outer {
+    width: 100%;
+    text-align: center;
+    margin-left: -185px;
+}
+
+.inner {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.outer-fav {
+    width: 100%;
+    text-align: center;
+}
+
+.inner-fav {
+    display: inline-block;
+}
+
+.selected {
+    background-color: #6593AD !important;
+    color: white;
+}
+
+.search {
+    height: 30px; 
+}
+
+.clear {
+    height: 30px;
+}
+
+.pad {
+    padding-top: 20px;
+}
+
+.button {
+    padding: 6px 12px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.chart {
+    max-width: 950px;
+    margin: auto;
+}
+
+.fav-button {
+    width: 40px;
+    height: 41px;
+    background: #f4efef;
+    border: 1px solid #d3d3d3;
+    border-radius: 3px;
+}
+
+#dropdownMenuButton {
+    text-align: left;
+}
+
+.dropdown-menu.pull-left {
+    left: 0;
+}
+
+.material-icons.yellow { 
+    color: 	#CE9E3C; 
+}
+
+tr:nth-child(even) {
+    background: #98D1F6;
+}
+
+tr:nth-child(odd) {
+    background: #6692AB;
+}
+
+th {
+    text-align: center !important;
+}
+
+td a {
+    color: blue;
+}
+
+td a:hover {
+    text-decoration: none;
+}
+
+td {
+    margin: auto;
+}
+
+.progress {
+    height: 15px;
+}
+
+.dropdown {
+    float: left;
+    padding: 5px 10px;
+    width: 250px;
+}
+
+.twitter-btn {
+    width: 40px; 
+    height: 41px; 
+    filter: invert(0);
+    margin-left: 610px;
+}
+
+
+@media only screen and (max-width: 750px) {
+    .street {
+        text-align: left;
+    }
+    .error-street, .error-city {
+        margin-left: 0 !important;
+    }
+    .city {
+        text-align: left;
+        margin-left: 0 !important;
+    }
+    .state {
+        margin-top: 0px !important;
+        margin-left: -330px !important;
+    }
+    .state_placeholder {
+        padding-top: 0 !important;
+    }
+
+    .state-dropdown {
+        margin-top: 0 !important; 
+        height: 34px !important; 
+    }
+
+    .current_location {
+        margin-left: 0 !important;
+    }
+
+    .outer {
+        margin-left: 0 !important;
+    }
+
+    .twitter-btn {
+        margin-left: 0 !important;
+    }
+
+    .card .current-city,.card .temperature {
+        font-size: 25px;
+    }
+
+    .card .summary {
+        font-size: 15px;
+    }
+
+    .card .timezone {
+        font-size: 20px;
+    }
+
+    .card .seal {
+        width: 110px; 
+        height: 110px; 
+        margin-left: 220px; 
+        margin-top: -350px;
+    }
+
+    .card-column {
+        font-size: 15px;
+    }
+
+    .card-column img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .dropdown {
+        float:none;
+        width: 150px;
+    }
+}

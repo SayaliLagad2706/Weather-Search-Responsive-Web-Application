@@ -1,0 +1,82 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+.mat-dialog-container {
+    padding: 0 !important;
+    overflow: hidden !important;
+    background-color: #9BD1F3;
+}
+
+.card-header {
+    background-color: #6593AD !important;
+    height: 80px;
+}
+
+.details {
+    margin-left: 250px; 
+    margin-top: 15px;
+}
+
+.modal-city {
+    font-weight: bold; 
+    font-size: 25px;
+    margin-left: 35px; 
+    margin-top: 20px;
+}
+
+.modal-temp {
+    font-weight: bold; 
+    font-size: 30px; 
+    margin-left: 35px;
+}
+
+.modal-summary {
+    font-weight: bold; 
+    font-size: 15px; 
+    margin-left: 35px;
+}
+
+.modal-icon {
+    width: 70px; 
+    height: 70px; 
+    margin-left: 280px; 
+    margin-top: -160px;
+}
+
+.modal-line {
+    height: 2px; 
+    background-color: grey; 
+    max-width: 100%; 
+    margin-left: 25px;
+    margin-right: 40px;
+}
+
+.modal-close {
+    z-index: 2; 
+    background-color: #6593AD !important; 
+    margin-left: 430px; 
+    margin-top: -70px;
+}
+
+.modal-date {
+    font-weight: bold;
+    z-index: 2; 
+    color: black; 
+    font-size: 20px; 
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    .details {
+        margin-left: 35px;
+    }
+
+    .modal-close {
+        margin-left: 220px; 
+    }
+
+    .modal-icon {
+        margin-left: 180px; 
+        margin-top: -160px;
+    }
+}
